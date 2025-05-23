@@ -87,7 +87,7 @@ int main()
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
-        swicth (choice)
+        switch (choice)
     {
         
         case 1:
@@ -101,6 +101,13 @@ int main()
             }
             else {
                 cout << "Stack is empty. Cannot pop." << endl;
+            }
+            break;
+             if (!stack.isEmpty()) {
+                stack.peek(); // Get the value of the top element
+            }
+            else {
+                cout << "Stack is empty. No top value." << endl;
             }
             break;
 }
