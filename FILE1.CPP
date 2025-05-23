@@ -43,6 +43,6 @@ if (isEmpty())
 {
     cout <<"Stack is empty."<< end;
 }
-
+Node * temp = top; //create a temporary pointer to the top
 }
 }
