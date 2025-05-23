@@ -45,7 +45,7 @@ if (isEmpty())
 }
 Node * temp = top; //create a temporary pointer to the top
 top = top ->next; //Update the top pointer to the next node
-cout <<"Popped value : " << top ->data <<endl;
+cout <<"Popped value : " << temp->data <<endl;
 delete temp;
 }
 //Peek/top operation : REtrive the value of the topmost element without remover
