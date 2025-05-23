@@ -72,3 +72,9 @@ bool isEmpty()
     return top ==NULL; //Return true if thr top pointer is NULL, indicating
 }
 };
+int main ()
+{
+    Stack stack ;
+
+    int 
+}
