@@ -67,5 +67,8 @@ void peek()
   }//Return the value of the top node
 }
 //isEmpty operation: check id the stack is Empty
-bool isEmpty()
+bool isEmpty() 
+{
+    return top ==NULL; //Return true if thr top pointer is NULL, indicating
 }
+};
