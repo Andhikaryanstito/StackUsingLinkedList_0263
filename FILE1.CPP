@@ -63,6 +63,9 @@ void peek()
         cout << current ->data << " " << endl;
         current = current -> next;
     }
-  }
+    cout << endl;
+  }//Return the value of the top node
 }
+//isEmpty operation: check id the stack is Empty
+bool isEmpty()
 }
