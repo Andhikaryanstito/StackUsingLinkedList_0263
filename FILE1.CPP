@@ -48,4 +48,12 @@ top = top ->next; //Update the top pointer to the next node
 cout <<"Popped value : " << top ->data <<endl;
 delete temp;
 }
+//Peek/top operation : REtrive the value of the topmost element without remover
+void peek()
+{
+  if (top == NULL)
+  {
+    cout << "Linked list empty."<<endl;
+  }
+}
 }
