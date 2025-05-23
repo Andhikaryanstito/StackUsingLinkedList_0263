@@ -45,5 +45,7 @@ if (isEmpty())
 }
 Node * temp = top; //create a temporary pointer to the top
 top = top ->next; //Update the top pointer to the next node
+cout <<"Popped value : " << top ->data <<endl;
+delete temp;
 }
 }
