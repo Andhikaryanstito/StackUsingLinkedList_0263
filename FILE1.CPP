@@ -34,14 +34,14 @@ int push(int value)
     newNode->next = top;   //3.Set the next pointer of the new node to
     top = newNode;  //4.Update the top pointer to the new node
     cout <<"Push value :" << value <<endl;
-    return value
+    return value;
 }
 //Pop Operation : Remove  the topmost element from the stack
 void pop()
 {
 if (isEmpty())
 {
-    cout <<"Stack is empty."<< end;
+    cout <<"Stack is empty."<< endl;
 }
 Node * temp = top; //create a temporary pointer to the top
 top = top ->next; //Update the top pointer to the next node
@@ -119,4 +119,5 @@ int main()
         }
         cout << endl;
     }
+    return 0;
 }
